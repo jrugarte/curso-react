@@ -1,0 +1,16 @@
+.addButton{
+    display: flex;
+    justify-content: center;
+}
+.addButton button{
+    width: 140px;
+    height: 40px;
+    border-radius: 12px;
+    background: #F24C3D;
+
+}
+.addButton button:hover{
+    width: 160px;
+    height: 60px;
+    cursor: pointer;
+}

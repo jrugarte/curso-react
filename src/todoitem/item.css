@@ -1,0 +1,27 @@
+.Icon:hover {
+    cursor: pointer;
+}
+
+.Icon-check {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icon-check--active{
+    color: white;
+}
+
+.TodoItem-p--completed{
+    text-decoration: line-through;
+}
+
+.Icon-delete:hover{
+    color: #F24C3D;
+}
+.Icon-check:hover{
+    color: wheat;
+}

@@ -1,0 +1,13 @@
+.filter {
+display: flex;
+justify-content: center;
+}
+
+.filter input{
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid #F29727;
+    color: #000000;
+    text-align: center;
+}
