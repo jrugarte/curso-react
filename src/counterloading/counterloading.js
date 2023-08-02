@@ -3,7 +3,7 @@ import React from "react";
 function CounterLoading() {
   return (
     <div className="counter-loading">
-      <h1>Cargando TODO's</h1>
+      <h1>Cargando Tareas</h1>
     </div>
   );
 }
