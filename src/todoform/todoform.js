@@ -19,7 +19,9 @@ function TodoForm() {
   return (
     <div className="form-div">
       <form onSubmit={onSubmit}>
-        <label>Escribte tu nuevo TO DO!</label>
+        <div className="label-div">
+          <label>¡Escribe tu nuevo TO DO!</label>
+        </div>
         <textarea
           placeholder="Preparar los desayunos de la semana"
           value={newTodoValue}

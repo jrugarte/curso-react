@@ -3,15 +3,20 @@
     justify-content: center;
 }
 .addButton button{
-    width: 140px;
-    height: 40px;
-    border-radius: 12px;
+    width: 100px;
+    height: 100px;
+    border-radius: 120px;
     background: #F24C3D;
     z-index: 1;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
 
 }
 .addButton button:hover{
-    width: 160px;
-    height: 60px;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
     cursor: pointer;
 }
