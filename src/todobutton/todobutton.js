@@ -1,11 +1,16 @@
 import "./button.css";
 import React from "react";
-function TodoButton() {
+function TodoButton({ setOpenModal }) {
   return (
     <div className="addButton">
-      <button>ADD</button>
+      <button
+        onClick={() => {
+          setOpenModal((state) => !state);
+        }}
+      >
+        ADD
+      </button>
     </div>
   );
 }
-
 export { TodoButton };

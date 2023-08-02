@@ -1,0 +1,11 @@
+.modal{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#1c675f8d;
+position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+}
