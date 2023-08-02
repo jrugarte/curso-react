@@ -8,15 +8,15 @@ function TodoCounter() {
     return (
       <div className="counter">
         <h1>
-          Completaste <span>{completedTodos}</span> de <span>{totalTodos}</span>{" "}
-          TODO's
+          Completaste <span>{completedTodos}</span> Tareas de{" "}
+          <span>{totalTodos}</span>{" "}
         </h1>
       </div>
     );
   } else if (completedTodos === totalTodos) {
     return (
       <div className="counter">
-        <h1>COMPLETASTE TODOS LOS TODOOOOO'S</h1>
+        <h1>COMPLETASTE TODAS LAS TAREASSSS</h1>
       </div>
     );
   }
