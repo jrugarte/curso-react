@@ -8,8 +8,8 @@
     text-align: center;
     background-color: #F2BE22;
     border-radius:20px ;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     width: 600px;
 }
 .empty-counter span{
@@ -19,7 +19,7 @@
 @media (max-width: 640px) {
   
     .empty-counter h1{
-        font-size: 28px;
+        font-size: 30px;
         font-weight:280;
         width: 300px;
     }

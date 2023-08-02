@@ -10,6 +10,7 @@
     background-color: #02211e8d;
     border: 1px solid #03201d8d;
     border-radius: 20px;
+    
 }
 .label-div {
     height: 30px;
@@ -54,6 +55,8 @@
     .form-div{
         width: 280px;
         height: 230px;
+        margin: 6px;
+        padding: 10px;
     }
     .form-div textarea{
         height: 90px;

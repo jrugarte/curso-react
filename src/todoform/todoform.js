@@ -20,7 +20,7 @@ function TodoForm() {
     <div className="form-div">
       <form onSubmit={onSubmit}>
         <div className="label-div">
-          <label>¡Escribe tu nuevo TO DO!</label>
+          <label>¡Escribe tu nueva Tarea!</label>
         </div>
         <textarea
           placeholder="Preparar los desayunos de la semana"
